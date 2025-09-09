@@ -7,17 +7,6 @@ terraform {
   }
 }
 
-terraform { 
-  cloud { 
-    
-    organization = "PTT-Example" 
-
-    workspaces { 
-      name = "TF-Context-Updates" 
-    } 
-  } 
-}
-
 # Provider will use CIRCLECI_TOKEN environment variable
 #provider "circleci" {
   # Token is read from CIRCLECI_TOKEN environment variable
