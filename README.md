@@ -1,12 +1,12 @@
 # TF-Update-Contexts
 Step-by-Step: Rotating test-context-for-rotation
+
 ✅ 1. Decide on Your New Context Name
-Pick a suffix to version the context. For example:
+Pick a suffix to version the context.
 
+For example:
 test-context-for-rotation-v2
-
 test-context-for-rotation-2025-09
-
 test-context-for-rotation-next
 
 This keeps your naming consistent and traceable.
@@ -20,8 +20,8 @@ rotation_suffixes = ["v2"]  # or ["2025-09"], etc.
 This tells Terraform to create a new context named test-context-for-rotation-v2.
 
 📦 3. Apply the Change
-Run:
 
+Run:
 bash
 terraform plan
 terraform apply
